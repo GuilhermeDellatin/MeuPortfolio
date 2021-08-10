@@ -17,7 +17,7 @@ abstract class UseCase<Param, Source> {
     }
 
     abstract class NoSource<Params> : UseCase<Params, Unit>() {
-        override suspend operator fun invoke(param: Params) = execute(param)
+        override suspend fun invoke(param: Params) = execute(param)
     }
 
     object None

@@ -29,13 +29,13 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
         viewModel.repos.observe(this) {
             when (it) {
-                MainViewModel.State.Loading -> dialog.show()
                 is MainViewModel.State.Error -> {
                     createDialog {
                         setMessage(it.error.message)
                     }.show()
                     dialog.dismiss()
                 }
+                MainViewModel.State.Loading -> dialog.show()
                 is MainViewModel.State.Success -> {
                     dialog.dismiss()
                     adapter.submitList(it.list)
