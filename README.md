@@ -17,7 +17,7 @@ Desenvolver uma aplicação que retorne os repositórios do GitHub de qualquer p
 
 #
 <div>
-    <img align="center" height="500" width="300" src="https://imgur.com/Ay9Ueve.png"/>
-    <img align="center" height="500" width="300" src="https://imgur.com/7rATVMc.png"/>
-    <img align="center" height="500" width="300" src="https://imgur.com/BZUivup.png"/>
+    <img align="center" height="400" width="250" src="https://imgur.com/Ay9Ueve.png"/>
+    <img align="center" height="400" width="250" src="https://imgur.com/7rATVMc.png"/>
+    <img align="center" height="400" width="250" src="https://imgur.com/BZUivup.png"/>
 </div>
