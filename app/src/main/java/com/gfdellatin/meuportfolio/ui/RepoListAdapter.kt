@@ -27,6 +27,7 @@ class RepoListAdapter : ListAdapter<Repo, RepoListAdapter.ViewHolder>(DiffCallba
         fun bind(item: Repo) {
             binding.tvRepoName.text = item.name
             binding.tvRepoDescription.text = item.description
+            binding.tvRepoLink.text = item.htmlURL
             binding.tvRepoLanguage.text = item.language
             binding.chipStar.text = item.stargazersCount.toString()
 
